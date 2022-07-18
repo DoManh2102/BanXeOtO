@@ -1,0 +1,74 @@
+@media screen and (max-width: 576px) {
+    #navbarHonda {
+        #navClick {
+            a {
+                padding: $pd-1 $pd-1;
+            }
+        }
+    }
+    #header__search {
+        input {
+            width: 40%;
+        }
+    }
+    #intro {
+        .container-fluid {
+            .intro__right {
+                .intro__right__content {
+                    width: 40%;
+                    padding-left: 2%;
+                    h4 {
+                        font-size: $font-size-1;
+                    }
+                    p {
+                        font-size: $font-size-1;
+                    }
+                    button {
+                        font-size: $font-size-1;
+                    }
+                }
+            }
+        }
+    }
+
+    #our-vehicles {
+        .carousel-inner {
+            .carousel-item {
+                .carousel__item__caption {
+                    width: 60%;
+                    top: unset;
+                    left: 20%;
+                    text-align: center;
+                    .caption__text {
+                        display: none;
+                    }
+                    .carousel__item__detail {
+                        .carousel__detail__content {
+                            h2 {
+                                font-size: $font-size-3;
+                            }
+                        }
+                    }
+                }
+                .carousel__item__footer {
+                    width: 100%;
+                    border: none;
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+        #vahicles-function {
+            .function__content {
+                width: 100%;
+                background-size: 100%;
+                .function__detail {
+                    @media screen and (min-width:440px) and (max-width: 576px) {
+                        top: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

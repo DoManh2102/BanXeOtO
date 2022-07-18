@@ -1,0 +1,36 @@
+#swipperHonda {
+    height: 750px;
+    background-color: $color-dark-blue-200;
+    margin-top: $mg-5;
+    .swiper {
+        height: 500px;
+        .swiper-wrapper {
+            height: 92%;
+        }
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+        }
+        .swiper-button-next {
+            padding: 50px 30px;
+            background-color: $color-dark-white;
+            border-radius: 0.9rem;
+            right: -0.5rem;
+            top: 40%;
+        }
+        .swiper-button-prev {
+            padding: 50px 30px;
+            background-color: $color-dark-white;
+            border-radius: 0.9rem;
+            left: -0.5rem;
+            top: 40%;
+        }
+        .swipper__button {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            bottom: 12%;
+            z-index: 1;
+        }
+    }
+}

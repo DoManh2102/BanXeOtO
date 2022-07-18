@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 11px;
+}
+
+.title {
+    font-size: $font-size-4;
+    color: $color-dark-blue-200;
+    margin: $mg-3 0 $mg-5 0;
+    text-align: center;
+    font-weight: $font-weight-300;
+    @media screen and (max-width: 768px) {
+        margin: $mg-3 0;
+    }
+}

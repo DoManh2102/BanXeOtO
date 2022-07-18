@@ -1,0 +1,106 @@
+@media screen and (max-width: 992px) {
+    #navbarHonda {
+        #navbarMenu {
+            .nav-link {
+                padding: $pd-1 $pd-2;
+            }
+        }
+        #navClick {
+            a {
+                padding: $pd-1 10px;
+            }
+        }
+    }
+
+    #header__search {
+        input {
+            width: 75%;
+        }
+    }
+
+    #vehiclea {
+        #vehiclea_content {
+            .vehiclea__nav {
+                ul li a {
+                    padding: $pd-1 $pd-9;
+                }
+            }
+        }
+        #vahicle__list {
+            .vehicle__product {
+                .btn-vihiclen {
+                    margin-bottom: $mg-1;
+                }
+            }
+        }
+    }
+
+    #swipperHonda {
+        height: 600px;
+        margin-top: $mg-3;
+        .swiper {
+            .swiper-wrapper {
+                height: 400px;
+            }
+            .swipper__button {
+                bottom: 25%;
+            }
+            .swiper-pagination {
+                bottom: 15%;
+            }
+        }
+    }
+
+    #intro {
+        .container-fluid {
+            .intro__left {
+                margin-top: -130px;
+            }
+            .intro__right {
+                margin-top: -130px;
+                background-image: url(../../img/intro-x.jpg);
+                .intro__right__content {
+                    width: 90%;
+                    padding-left: 5%;
+                }
+            }
+        }
+    }
+
+    #our-vehicles {
+        .carousel-indicators-config {
+            width: 100%;
+        }
+    }
+
+    #our-vehicles {
+        .carousel-inner {
+            .carousel-item {
+                .carousel__item__footer {
+                    border: none;
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+        #vahicles-function {
+            margin: 30px 0;
+            .function__content {
+                margin-bottom: $mg-2;
+            }
+        }
+    }
+
+    .search__endPage {
+        .search__endPage__left {
+            width: 75%;
+            input {
+                width: 65%;
+            }
+        }
+        p{
+            font-size: $font-size-1;
+        }
+    }
+}

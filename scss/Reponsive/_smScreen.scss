@@ -1,0 +1,168 @@
+@media screen and (max-width: 768px) {
+    #header__search {
+        padding: $pd-1 $pd-1;
+        background-color: $color-blue-100;
+        i {
+            transform: translateY(-1px);
+        }
+        input {
+            width: 65%;
+            border: $border-5;
+            border-radius: 5px;
+            height: 3.5rem;
+            padding-bottom: 8px;
+            &::placeholder {
+                color: $color-white;
+                font-size: $font-size-1;
+            }
+        }
+        button {
+            border: $border-5;
+            color: $color-white;
+            margin-top: -3px;
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-blue-200;
+            }
+        }
+        &::before {
+            @include arrow(unset, 0%);
+            border-bottom-color: transparent;
+        }
+    }
+    #navbarHonda {
+        #navbarMenu {
+            .dropdown-menu {
+                &::before {
+                    @include arrow(unset, 80%);
+                    border-bottom: 10px solid white;
+                    border-right: 10px solid transparent;
+                    border-left: 10px solid transparent;
+                    top: -10px;
+                }
+            }
+        }
+    }
+    #vehiclea {
+        .vehicle__close {
+            display: none;
+        }
+        #vehiclea_content {
+            .vehiclea__nav {
+                padding: $pd-3 0 0 $pd-1;
+                ul li {
+                    display: inline-block;
+                    margin-bottom: $mg-2;
+                    a {
+                        padding: $pd-1 $pd-1;
+                        border: none;
+                    }
+                }
+            }
+        }
+        #vahicle__list {
+            .vehicle__product {
+                .vehicle__info {
+                    h3 {
+                        font-size: $font-size-6;
+                    }
+                }
+            }
+        }
+    }
+    #swipperHonda {
+        height: 600px;
+        margin-top: $mg-5;
+        .swiper {
+            .swiper-wrapper {
+                height: 400px;
+            }
+            .swipper__button {
+                bottom: 25%;
+            }
+        }
+    }
+    .intro {
+        .container-fluid {
+            .intro__right {
+                background-image: url(../../img/our-vehicles-intro-2.jpg);
+                .intro__right__content {
+                    width: 40%;
+                }
+            }
+
+            .intro__left__1 {
+                margin-bottom: $mg-2;
+            }
+        }
+    }
+    #our-vehicles {
+        title {
+            margin: $pd-3 0;
+        }
+        .carousel-inner {
+            .carousel-item {
+                height: 95%;
+                .carousel__item__caption {
+                    width: 60%;
+                    top: unset;
+                    bottom: 12%;
+                    left: 20%;
+                    text-align: center;
+                    .caption__text {
+                        display: none;
+                    }
+                    .carousel__item__detail {
+                        .carousel__detail__content {
+                            h2 {
+                                font-size: $font-size-3;
+                            }
+                        }
+                    }
+                }
+                .carousel__item__footer {
+                    width: 100%;
+                    border: none;
+                    bottom: 2%;
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            top: 42%;
+        }
+    }
+    .carousel-indicators-config {
+        li.active {
+            &::before {
+                display: none;
+            }
+        }
+    }
+
+    .search__endPage {
+        padding: 0;
+        flex-wrap: wrap;
+        .search__endPage__left {
+            width: 100%;
+            padding: $pd-1 $pd-3;
+            border-top: 1px solid #eaeaea;
+            @media screen and (min-width: 300px) and (max-width: 500px) {
+                input{
+                    width: 50%;
+                    &::placeholder{
+                        font-size: $font-size-2;
+                    }
+                }
+            }
+        }
+        .back-to-top {
+            padding: $pd-2 0;
+        }
+        
+    }
+}

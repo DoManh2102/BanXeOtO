@@ -1,0 +1,55 @@
+@mixin button($border, $bg, $color, $padding, $bg-hover, $color-hover) {
+    border: $border;
+    border-radius: $boder-radius-1;
+    background-color: $bg;
+    color: $color;
+    font-weight: $font-weight-bold;
+    padding: $padding;
+    font-size: $font-size-1;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+        background-color: $bg-hover;
+        color: $color-hover;
+    }
+}
+
+.btn-vihiclen {
+    @include button($border-3, $color-blue-100, $color-white, $pd-1 $pd-5, $color-white, $color-blue-100);
+    margin-right: $mg-1;
+}
+.btn-vihiclen-active {
+    @include button($border-3, $color-white, $color-blue-100, $pd-1 $pd-5, $color-blue-200, $color-white);
+}
+.btn-search {
+    @include button($border-3, transparent, $color-blue-100, $pd-1 $pd-5, $color-blue-200, $color-white);
+}
+.btn-carousel {
+    @include button($border-6, $color-orange, $color-white, $pd-1 $pd-2, $color-white, $color-orange);
+}
+
+.btn-go {
+    @include button($border-5, $color-blue-200, $color-white, $pd-1 $pd-2, $transparent, $color-blue-100);
+}
+
+.btn-go-orange {
+    @include button($border-6, $color-orange, $color-white, $pd-1 $pd-2, $color-white, $color-orange);
+}
+
+.btn-build {
+    @include button($border-5, $transparent, $color-white, $pd-1 $pd-2, $color-white, $color-blue-100);
+}
+
+.btn__carousel__explore {
+    @include button($border-6, $color-orange, $color-white, $pd-1 $pd-5, $color-white, $color-orange);
+    @media screen and (max-width: 576px) {
+        padding: $pd-1 $pd-2;
+    }
+}
+
+.btn__carousel__build {
+    @include button($border-5, $transparent, $color-white, $pd-1 $pd-5, $color-white, $color-blue-100);
+    @media screen and (max-width: 576px) {
+        padding: $pd-1 $pd-2;
+    }
+}

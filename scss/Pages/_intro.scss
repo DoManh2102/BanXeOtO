@@ -1,0 +1,81 @@
+.intro {
+    background-color: $color-grey;
+    .container-fluid {
+        padding: 0 5%;
+        .intro__left {
+            background-image: url(../../img/our-vehicle-intro-1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: content-box;
+            height: 350px;
+            position: relative;
+            margin-top: -200px;
+            padding: 0 $pd-2;
+            .intro__left__content {
+                position: absolute;
+                text-align: center;
+                bottom: 10%;
+                color: $color-white;
+                h4 {
+                    font-weight: bold;
+                    margin-bottom: $mg-2;
+                    font-size: $font-size-2;
+                }
+                p {
+                    font-weight: $font-weight-300;
+                    margin-bottom: $mg-3;
+                    padding: 0 $pd-3;
+                    font-size: $font-size-1;
+                }
+                .btn-go {
+                    text-align: center;
+                }
+            }
+        }
+        .intro__right {
+            background-image: url(../../img/our-vehicles-intro-2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: content-box;
+            height: 350px;
+            position: relative;
+            margin-top: -200px;
+            padding: 0 $pd-2;
+            .intro__right__content {
+                width: 40%;
+                position: absolute;
+                top: 30%;
+                left: 5%;
+                text-align: start;
+                color: $color-white;
+                h4 {
+                    font-weight: bold;
+                    margin-bottom: $mg-2;
+                    font-size: $font-size-2;
+                    background-color: $color-blue-overlay;
+                    padding: $pd-1 $pd-2;
+                    display: inline-block;
+                }
+                p {
+                    font-weight: $font-weight-300;
+                    margin-bottom: $mg-3;
+                    font-size: $font-size-2;
+                    font-weight: $font-weight-bold;
+                }
+                .btn-go {
+                    text-align: center;
+                }
+            }
+        }
+
+        .intro__left__1 {
+            background-image: url("../../img/intro-3.jpg");
+            margin-top: 0px;
+        }
+
+        .intro__right__1 {
+            background-image: url("../../img/intro-4.jpg");
+            margin-top: 0px;
+        }
+    }
+}
