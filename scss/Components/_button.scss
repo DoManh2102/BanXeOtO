@@ -53,3 +53,7 @@
         padding: $pd-1 $pd-2;
     }
 }
+
+.btn-email{
+    @include button($border-3, $transparent, $color-blue-200, $pd-1 $pd-5, $color-blue-200, $color-white);
+}

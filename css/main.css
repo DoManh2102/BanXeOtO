@@ -24,190 +24,190 @@
   animation-delay: 0.9s; }
 
 #swipperHonda .slider-1 {
-  background-image: url(../img/banner-1.jpg);
+  background-image: url(../../img/banner-1.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #swipperHonda .slider-1 {
-      background-image: url(../img/banner-1-xs.jpg);
+      background-image: url(../../img/banner-1-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #swipperHonda .slider-1 {
-      background-image: url(../img/banner-1-xs.jpg);
+      background-image: url(../../img/banner-1-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #swipperHonda .slider-2 {
-  background-image: url(../img/banner-2.jpg);
+  background-image: url(../../img/banner-2.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #swipperHonda .slider-2 {
-      background-image: url(../img/banner-2-xs.jpg);
+      background-image: url(../../img/banner-2-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #swipperHonda .slider-2 {
-      background-image: url(../img/banner-2-xs.jpg);
+      background-image: url(../../img/banner-2-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #swipperHonda .slider-3 {
-  background-image: url(../img/banner-3.jpg);
+  background-image: url(../../img/banner-3.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #swipperHonda .slider-3 {
-      background-image: url(../img/banner-3-xs.jpg);
+      background-image: url(../../img/banner-3-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #swipperHonda .slider-3 {
-      background-image: url(../img/banner-3-xs.jpg);
+      background-image: url(../../img/banner-3-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #swipperHonda .slider-4 {
-  background-image: url(../img/banner-4.jpg);
+  background-image: url(../../img/banner-4.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #swipperHonda .slider-4 {
-      background-image: url(../img/banner-4-xs.jpg);
+      background-image: url(../../img/banner-4-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #swipperHonda .slider-4 {
-      background-image: url(../img/banner-4-xs.jpg);
+      background-image: url(../../img/banner-4-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #our-vehicles .item-1 {
-  background-image: url(../img/slider-1.jpg);
+  background-image: url(../../img/slider-1.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #our-vehicles .item-1 {
-      background-image: url(../img/slider-1-xs.jpg);
+      background-image: url(../../img/slider-1-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #our-vehicles .item-1 {
-      background-image: url(../img/slider-1-xs.jpg);
+      background-image: url(../../img/slider-1-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #our-vehicles .item-2 {
-  background-image: url(../img/slider-2.jpg);
+  background-image: url(../../img/slider-2.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #our-vehicles .item-2 {
-      background-image: url(../img/slider-2-xs.jpg);
+      background-image: url(../../img/slider-2-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #our-vehicles .item-2 {
-      background-image: url(../img/slider-2-xs.jpg);
+      background-image: url(../../img/slider-2-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #our-vehicles .item-3 {
-  background-image: url(../img/slider-3.jpg);
+  background-image: url(../../img/slider-3.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #our-vehicles .item-3 {
-      background-image: url(../img/slider-3-xs.jpg);
+      background-image: url(../../img/slider-3-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #our-vehicles .item-3 {
-      background-image: url(../img/slider-3-xs.jpg);
+      background-image: url(../../img/slider-3-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #our-vehicles .item-4 {
-  background-image: url(../img/slider-4.jpg);
+  background-image: url(../../img/slider-4.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #our-vehicles .item-4 {
-      background-image: url(../img/slider-4-xs.jpg);
+      background-image: url(../../img/slider-4-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #our-vehicles .item-4 {
-      background-image: url(../img/slider-4-xs.jpg);
+      background-image: url(../../img/slider-4-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #our-vehicles .item-5 {
-  background-image: url(../img/slider-5.jpg);
+  background-image: url(../../img/slider-5.jpg);
   background-size: cover;
   background-position: center; }
   @media screen and (max-width: 768px) {
     #our-vehicles .item-5 {
-      background-image: url(../img/slider-5-xs.jpg);
+      background-image: url(../../img/slider-5-xs.jpg);
       background-size: cover;
       background-position: unset; } }
   @media screen and (max-width: 576px) {
     #our-vehicles .item-5 {
-      background-image: url(../img/slider-5-xs.jpg);
+      background-image: url(../../img/slider-5-xs.jpg);
       background-size: cover;
       background-position: center; } }
 
 #vahicles-function .function-1 {
-  background-image: url(../img/item-1.jpg);
+  background-image: url(../../img/item-1.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #vahicles-function .function-2 {
-  background-image: url(../img/item-2.jpg);
+  background-image: url(../../img/item-2.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #vahicles-function .function-3 {
-  background-image: url(../img/item-3.jpg);
+  background-image: url(../../img/item-3.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #vahicles-function .function-4 {
-  background-image: url(../img/item-4.jpg);
+  background-image: url(../../img/item-4.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #discover .discover__item-1 {
-  background-image: url(../img/discover-1.jpg);
+  background-image: url(../../img/discover-1.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #discover .discover__item-2 {
-  background-image: url(../img/discover-2.jpg);
+  background-image: url(../../img/discover-2.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #discover .discover__item-3 {
-  background-image: url(../img/discover-3.jpg);
+  background-image: url(../../img/discover-3.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #discover .discover__item-4 {
-  background-image: url(../img/discover-4.jpg);
+  background-image: url(../../img/discover-4.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
 
 #discover .discover__item-5 {
-  background-image: url(../img/discover-5.jpg);
+  background-image: url(../../img/discover-5.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center 0; }
@@ -377,6 +377,20 @@ html {
   @media screen and (max-width: 576px) {
     .btn__carousel__build {
       padding: 6px 15px; } }
+
+.btn-email {
+  border: 2px solid #2198dc;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #2198dc;
+  font-weight: bold;
+  padding: 6px 30px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.5s; }
+  .btn-email:hover {
+    background-color: #2198dc;
+    color: #fff; }
 
 #header {
   position: fixed;
@@ -614,7 +628,6 @@ html {
     border-bottom-color: #f5f5f5; }
 
 .search__endPage {
-  margin-bottom: 100px;
   display: flex;
   padding: 0 25px;
   background-color: #fff;
@@ -645,6 +658,54 @@ html {
     .search__endPage p i {
       font-size: 1.4rem;
       margin-left: 5px; }
+
+#footer {
+  padding: 50px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5f5f5;
+  justify-content: space-between; }
+  #footer .footer__detail h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #00324f;
+    margin-bottom: 30px; }
+  #footer .footer__detail ul {
+    padding: 0; }
+    #footer .footer__detail ul li {
+      list-style: none;
+      margin-bottom: 20px; }
+      #footer .footer__detail ul li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: 1px solid #4f91ca;
+        white-space: nowrap; }
+  #footer .footer__touch {
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between; }
+    #footer .footer__touch .footer__left h3 {
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #00324f;
+      font-size: 1.8rem; }
+    #footer .footer__touch .footer__left .footer__icon i {
+      width: 30px;
+      height: 30px;
+      background-color: #007cc3;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      line-height: 30px;
+      text-align: center;
+      margin-right: 5px; }
+    #footer .footer__touch .footer__right {
+      text-align: right; }
+      #footer .footer__touch .footer__right h3 {
+        font-size: 1.4rem;
+        color: #00324f;
+        margin-bottom: 20px; }
 
 #swipperHonda {
   height: 750px;
@@ -681,7 +742,7 @@ html {
   .intro .container-fluid {
     padding: 0 5%; }
     .intro .container-fluid .intro__left {
-      background-image: url(../img/our-vehicle-intro-1.jpg);
+      background-image: url(../../img/our-vehicle-intro-1.jpg);
       background-size: cover;
       background-position: center;
       background-clip: content-box;
@@ -706,7 +767,7 @@ html {
         .intro .container-fluid .intro__left .intro__left__content .btn-go {
           text-align: center; }
     .intro .container-fluid .intro__right {
-      background-image: url(../img/our-vehicles-intro-2.jpg);
+      background-image: url(../../img/our-vehicles-intro-2.jpg);
       background-size: cover;
       background-position: center;
       background-clip: content-box;
@@ -736,10 +797,10 @@ html {
         .intro .container-fluid .intro__right .intro__right__content .btn-go {
           text-align: center; }
     .intro .container-fluid .intro__left__1 {
-      background-image: url(../img/intro-3.jpg);
+      background-image: url("../../img/intro-3.jpg");
       margin-top: 0px; }
     .intro .container-fluid .intro__right__1 {
-      background-image: url(../img/intro-4.jpg);
+      background-image: url("../../img/intro-4.jpg");
       margin-top: 0px; }
 
 #our-vehicles {
@@ -968,7 +1029,7 @@ html {
     margin-top: -130px; }
   #intro .container-fluid .intro__right {
     margin-top: -130px;
-    background-image: url(../img/intro-x.jpg); }
+    background-image: url(../../img/intro-x.jpg); }
     #intro .container-fluid .intro__right .intro__right__content {
       width: 90%;
       padding-left: 5%; }
@@ -1060,7 +1121,7 @@ html {
       bottom: 25%; }
 
   .intro .container-fluid .intro__right {
-    background-image: url(../img/our-vehicles-intro-2.jpg); }
+    background-image: url(../../img/our-vehicles-intro-2.jpg); }
     .intro .container-fluid .intro__right .intro__right__content {
       width: 40%; }
   .intro .container-fluid .intro__left__1 {
@@ -1107,7 +1168,53 @@ html {
           font-size: 1.8rem; } }
 @media screen and (max-width: 768px) {
     .search__endPage .back-to-top {
-      padding: 15px 0; } }
+      padding: 15px 0; }
+
+  #footer {
+    background-color: #fff;
+    padding: 0; }
+    #footer .footer__detail {
+      width: 100%; }
+      #footer .footer__detail h1 {
+        background-color: #f5f5f5;
+        padding: 15px;
+        margin-bottom: 2px;
+        position: relative; }
+        #footer .footer__detail h1 span {
+          font-size: 1.4rem; }
+        #footer .footer__detail h1 i {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          font-size: 1.4rem;
+          color: #2198dc;
+          background-color: transparent;
+          border: 1px solid #4f91ca;
+          text-align: center;
+          line-height: 28px;
+          position: absolute;
+          right: 10px;
+          top: 9px; }
+      #footer .footer__detail .collapse__ul ul {
+        padding: 6px 0 0 15px; }
+        #footer .footer__detail .collapse__ul ul li {
+          margin-bottom: 20px; }
+          #footer .footer__detail .collapse__ul ul li a {
+            font-size: 1rem; }
+    #footer .footer__touch {
+      width: 100%;
+      padding: 15px 15px;
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      flex-wrap: wrap; }
+      #footer .footer__touch .footer__left {
+        width: 100%; }
+        #footer .footer__touch .footer__left h3 {
+          margin-bottom: 15px; }
+      #footer .footer__touch .footer__right {
+        width: 100%;
+        margin-top: 20px;
+        text-align: left; } }
 @media screen and (max-width: 576px) {
   #navbarHonda #navClick a {
     padding: 6px 6px; }

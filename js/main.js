@@ -123,39 +123,58 @@ $(document).ready(function () {
 
     // active li our-vehicles khi click mũi tên tiến lùi
     count = 0
-    $('.carousel-control-next-icon').click(function(){
+    $('.carousel-control-next-icon').click(function () {
         $('.carousel-indicators-config li').removeClass('active');
-        if(count === 4){
+        if (count === 4) {
             count = 0;
-        }else{
+        } else {
             count++;
         }
-        $('.carousel-indicators-config li').each(function(i){
-            if(i === count){
+        $('.carousel-indicators-config li').each(function (i) {
+            if (i === count) {
                 $(this).addClass('active')
             }
         });
     })
 
     count = 0
-    $('.carousel-control-prev-icon').click(function(){
+    $('.carousel-control-prev-icon').click(function () {
         $('.carousel-indicators-config li').removeClass('active');
-        if(count === 0){
+        if (count === 0) {
             count = 4;
-        }else{
+        } else {
             count--;
         }
-        $('.carousel-indicators-config li').each(function(i){
-            if(i === count){
+        $('.carousel-indicators-config li').each(function (i) {
+            if (i === count) {
                 $(this).addClass('active')
             }
         });
     })
 
     //back-to-top
-    $('.back-to-top').click(function(){
-        $('html, body').animate({scrollTop: 0}, 100);
+    $('.back-to-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 100);
     })
+
+    // responsive js
+    function collapse() {
+        var width = $(window).width();
+        if (width <= 768) {
+            $('.collapse__ul').addClass('collapse');
+        } else {
+            $('.collapse__ul').removeClass('collapse');
+        }
+    }
+    $(window).resize(function () {
+        collapse();
+    });
+
+    $(window).ready(function () {
+        collapse();
+    })
+
+
 })
 
 
