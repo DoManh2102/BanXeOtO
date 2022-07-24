@@ -767,7 +767,7 @@ html {
         .intro .container-fluid .intro__left .intro__left__content .btn-go {
           text-align: center; }
     .intro .container-fluid .intro__right {
-      background-image: url(../../img/our-vehicles-intro-2.jpg);
+      background-image: url(../img/our-vehicles-intro-2.jpg);
       background-size: cover;
       background-position: center;
       background-clip: content-box;
@@ -797,10 +797,10 @@ html {
         .intro .container-fluid .intro__right .intro__right__content .btn-go {
           text-align: center; }
     .intro .container-fluid .intro__left__1 {
-      background-image: url("../../img/intro-3.jpg");
+      background-image: url("../img/intro-3.jpg");
       margin-top: 0px; }
     .intro .container-fluid .intro__right__1 {
-      background-image: url("../../img/intro-4.jpg");
+      background-image: url("../img/intro-4.jpg");
       margin-top: 0px; }
 
 #our-vehicles {
@@ -1029,7 +1029,7 @@ html {
     margin-top: -130px; }
   #intro .container-fluid .intro__right {
     margin-top: -130px;
-    background-image: url(../../img/intro-x.jpg); }
+    background-image: url(../img/intro-x.jpg); }
     #intro .container-fluid .intro__right .intro__right__content {
       width: 90%;
       padding-left: 5%; }
@@ -1121,7 +1121,7 @@ html {
       bottom: 25%; }
 
   .intro .container-fluid .intro__right {
-    background-image: url(../../img/our-vehicles-intro-2.jpg); }
+    background-image: url(../img/our-vehicles-intro-2.jpg); }
     .intro .container-fluid .intro__right .intro__right__content {
       width: 40%; }
   .intro .container-fluid .intro__left__1 {
